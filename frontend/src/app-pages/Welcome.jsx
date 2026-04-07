@@ -69,7 +69,7 @@ const Welcome = () => {
   }, [emblaApi]);
 
   return (
-    <div style={{ height: '100dvh' }} className="relative w-full bg-[#1e1b1b] overflow-hidden font-['Inter',sans-serif]">
+    <div style={{ height: '100dvh' }} className="fixed inset-0 w-full bg-[#1e1b1b] overflow-hidden font-['Inter',sans-serif]">
       {/* Carousel Container */}
       <div style={{ height: '100dvh' }} className="w-full overflow-hidden" ref={emblaRef}>
         <div style={{ height: '100dvh' }} className="flex w-full">
